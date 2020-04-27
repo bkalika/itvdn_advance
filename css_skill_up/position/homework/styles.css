@@ -1,0 +1,119 @@
+.form-feedback {
+    height: 200px;
+    width: 600px;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    color: #66f542;
+    text-align: center;
+    border-radius: 4px;
+    margin: auto;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.form-feedback p {
+    top: -11px;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    position: absolute;
+    color: #66f542;
+}
+
+.form-fields {
+    height: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius 4px;
+    padding: 0px;
+    outline: none;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+.form-fields input {
+    background-color: transparent;
+    border: none;
+    color: #66f542;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+}
+.form-fields input::placeholder {
+    color: #6f757a;
+}
+.form-fields textarea {
+    background-color: transparent;
+    border: none;
+    color: #66f542;
+    resize: none;
+    max-width: 100%;
+}
+.form-fields textarea::placeholder {
+    color: #6f757a;
+    font-size: 14px;
+}
+.name {
+    color: #66f542;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.email {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.subject {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+.message {
+    position: absolute;
+    top: 90px;
+    left: 203px;
+}
+.message label {
+    position: absolute;
+    left: -183px;
+
+}
+.btn-send {
+    border: none;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 60px;
+    height: 35px;
+    background-color: transparent;
+}
+.btn-send:hover {
+    background-color: #363738;
+}
+.btn-close {
+    border: none;
+    color: white;
+    font-size: 15px;
+    width: 40px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.btn-close:hover {
+    background-color: red;
+}
+.overlay {
+    background-color: rgba(0,0,0,0.80);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

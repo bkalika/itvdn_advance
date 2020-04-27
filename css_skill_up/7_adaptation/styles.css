@@ -1,0 +1,22 @@
+div {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+@media(min-width: 768px) and (max-width: 800px)  {
+    div {
+    background-color: red;
+    }
+}
+
+@media(min-width: 992px) {
+    div {
+    background-color: black;
+    }
+}
+
+@media(min-width: 1200px) {
+    div {
+    background-color: green;
+    }
+}
