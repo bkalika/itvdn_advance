@@ -1,0 +1,9 @@
+body {
+    background-color: #ccc;
+}
+.slider-block > div {
+    padding: 150px 0;
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
