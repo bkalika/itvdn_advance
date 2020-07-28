@@ -187,5 +187,7 @@ function Counter(incrementButton, decrementButton, inputField, minCount=1, maxCo
     this.domRefs.decrementButton.addEventListener('click', this.decrement.bind(this));
 }
 
-const counter1 = new Counter(incrementBtn[0], decrementBtn[0], productQuantity[0]);
-const counter2 = new Counter(incrementBtn[1], decrementBtn[1], productQuantity[1]);
+for (let i=0;i< productQuantity.length;i++){
+    const counter1 = new Counter(incrementBtn[i], decrementBtn[i], productQuantity[i]);
+}
+
